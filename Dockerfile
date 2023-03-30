@@ -1,4 +1,4 @@
-FROM quay.io/keycloak/keycloak:20.0.3
+FROM quay.io/keycloak/keycloak:21.0.2
 ARG KEYCLOAK_RESTRICTED_CLIENT_AUTH_VERSION=20.0.0
 
 ENV KC_DB=postgres
